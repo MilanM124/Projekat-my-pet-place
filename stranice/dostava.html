@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dostava</title>
+</head>
+<body>
+        <div style="display: flex; justify-content: center;">
+            <img src="slike/Logo.png">
+          </div><br>
+    <ul>
+        <li> <a href="../index.html" style="font-size: 20px;">Početna</a></li>
+        <li> <a href="onama.html" style="font-size: 20px;">O nama</a></li>
+        <li> <a href="preporuke.html" style="font-size: 20px;">Preporuke</a></li>
+        <li> <a href="prijavise.html" style="font-size: 20px;">Prijavi se</a></li>
+        <li> <a href="dostava.html" style="font-size: 20px;">Dostava</a></li>
+        <li> <a href="usluge.html" style="font-size: 20px;">Naše usluge</a></li>
+    </ul>  
+    <br>
+    <h2> Ubacite podatke kako bi ste uspesno porucili proizvod.</h2>
+    <br>
+
+    <form action="">
+        <p>Ime: </p>
+        <input type="text" name="ime" required>
+
+        <p>Prezime:</p>
+        <input type="text" name="prezime" required>
+
+        <p>Broj telefona:</p>
+        <input type="tel" name="telefon" required>
+
+        <p>Adresa:</p>
+        <input type="adresa" name="adresa" required>
+
+        <p>Napomena:</p>
+        <textarea name="poruka" id="" cols="21" rows="4"></textarea>
+
+        <p>Nacin plaćanja:</p>
+        <input type="radio" name="placanje" required> Prilikom preuzimanja
+        <input type="radio" name="placanje" required> Plaćanje karticom
+        <br>
+        <p>Cena dostave:</p>
+        <table border="1">
+            <tr>
+                <th>Udaljenost</th>
+                <th>Cena</th>
+            </tr>
+
+            <tr>
+                <td>1-15 kilometar</td>
+                <td>Besplatno</td>
+            </tr>
+
+            <tr>
+                <td>15-25 kilometara</td>
+                <td>750 dinara</td>
+            </tr>
+
+            <tr>
+                <td>25-50 kilometara</td>
+                <td>1500 dinara</td>
+            </tr>
+
+            <tr>
+                <td>50-75 kilometara</td>
+                <td>2250 dinara</td>
+            </tr>
+
+        </table>
+
+        <br><br>
+        <input type="submit" value="Poruči">
+    </form>
+    
+</body>
+</html>
